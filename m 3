@@ -1,0 +1,11 @@
+include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int num;
+    printf("3,4,5,6,7: ");
+    scanf("%d", &num);
+    printf("\nYou've entered: %d", num);
+    getch();
+    return 0;
+}
